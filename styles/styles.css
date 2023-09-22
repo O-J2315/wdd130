@@ -13,7 +13,7 @@ h1 {
     color: steelblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid blanchedalmond;
@@ -23,9 +23,34 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 body {
     font-size: 2em;
+}
+
+main {
+    max-width:  840px; 
+
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 2px solid white;
+    padding: 1rem;
+    background-color: beige;
+    color: dodgerblue;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
+    
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid black;
+    text-align: center;
 }
