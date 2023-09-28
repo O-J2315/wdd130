@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,500&family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
 
-* {
-    display: block;
-}
-
 
 :root {
 
@@ -56,6 +52,7 @@ article {
     background-color: var(--accent2-color);
 }
 
-p img {
+.hero img {
     float: right;
 }
+
