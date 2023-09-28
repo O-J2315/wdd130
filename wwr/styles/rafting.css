@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,500&family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
 
+* {
+    display: block;
+}
+
+
 :root {
 
     --primary-color: #003049;
@@ -33,6 +38,7 @@ a {
 }
 a:hover {
     font-size: large;
+    color: var(--nav-link-color);
 }
 
 .hero img {
