@@ -54,7 +54,7 @@ a:hover {
 }
 
 .hero h1 {
-    position: absolutely;
+    position: absolute;
     text-align: center;
     background-color: var(--secondary-color);
     opacity: 80%;
@@ -62,7 +62,7 @@ a:hover {
 
 .hero article {
     padding: 0;
-    position: absolutely;
+    position: absolute;
     text-align:justify;
     background-color: var(--nav-hover-background-color);
     
@@ -110,7 +110,6 @@ header img {
     float: left;
     width: 15%;
     margin-right: 2rem;
-    
 }
 
 section img {
