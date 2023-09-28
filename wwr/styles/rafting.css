@@ -75,8 +75,8 @@ a:hover {
     margin-top: 3%;
 }
 
-nav {
-    /* display: block; */
+header nav {
+    display:inline-table;
     padding: 5%;
 }
 
@@ -110,7 +110,6 @@ header img {
     float: left;
     width: 15%;
     margin-right: 2rem;
-    position: absolutely;
     
 }
 
