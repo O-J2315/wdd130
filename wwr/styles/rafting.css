@@ -113,3 +113,8 @@ header img {
     position: absolutely;
     
 }
+
+section img {
+    width: 70%;
+    height: auto;
+}
