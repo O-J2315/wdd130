@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,500&family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
 
-* {
-    padding: 2%;
-}
+/* * {
+    padding: 0%;
+} */
 
 :root {
 
@@ -38,9 +38,20 @@ header a {
     padding: 3%;
 
 }
+
 a:hover {
     font-size:x-large;
     color: var(--nav-link-color);
+}
+
+.hero h1 {
+    position: absolute;
+    top: 7rem; right: 3rem;
+    text-align: center;
+    background-color: black;
+    opacity: 50%;
+    color: aliceblue;
+    padding: 3%;
 }
 
 .hero div {
@@ -51,21 +62,19 @@ a:hover {
     display:block;
     width: 100%;
     height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    text-align: center;
-    background-color: var(--secondary-color);
-    opacity: 80%;
-}
+} 
 
 .hero article {
-    padding: 0;
     position: absolute;
-    text-align:justify;
+    top: 15rem;
     background-color: var(--nav-hover-background-color);
+    opacity: 85%;
+    margin-left: 10px; margin-right: 20px;
     
+}
+.hero p {
+    color: azure;
+    text-align:justify;
 }
 
 .hero article img {
@@ -73,10 +82,11 @@ a:hover {
     width: 30%;
     height: auto;
     margin-top: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 header nav {
-    display:inline-table;
     padding: 5%;
 }
 
