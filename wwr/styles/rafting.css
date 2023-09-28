@@ -24,16 +24,19 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
+    font-family: var(--paragraph-font);
     padding: 25px;
     color: black;
 }
 
-a {
+ header a {
     text-decoration: none;
+    border-style: double;
+    padding: 3%;
 
 }
 a:hover {
-    font-size: large;
+    font-size:x-large;
     color: var(--nav-link-color);
 }
 
@@ -50,9 +53,54 @@ h1 {
 article {
     position: absolute;
     background-color: var(--accent2-color);
+    display: block;
+    padding: 2%;
 }
 
-.hero img {
+.hero article img {
     float: right;
+    width: 40%;
+    height: auto;
 }
 
+.hero div {
+    position: relative;
+}
+
+nav {
+    display: block;
+    padding: 5%;
+}
+
+.sociallinks img {
+    width: 20%;
+    height: auto;
+    display: block;
+    float:right;
+}
+.sociallinks img:hover {
+    width: 23%;
+    opacity: 100%;
+}
+.sociallinks img:not(:hover) {
+    width: 15%;
+    opacity: 50%;
+}
+
+section {
+    display: block;
+    background-color: var(--secondary-color);
+}
+
+header {
+    display: block;
+    background-color: var(--accent2-color);
+    padding: 5%;
+}
+
+header img {
+    float: right;
+    width: 15%;
+    margin-right: 2rem;
+    
+}
