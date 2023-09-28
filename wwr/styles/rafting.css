@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,500&family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+
+:root {
+
+    --primary-color: #003049;
+    --secondary-color: #FDF0D5;
+    --accent1-color: #780000;
+    --accent2-color: #669BBC;
+
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+
+    --nav-background-color: #FDF0D5;
+    --nav-link-color: #003049;
+    --nav-hover-link-color: #780000;
+    --nav-hover-background-color: #669BBC;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+
+}
+a:hover {
+    font-size: large;
+}
+
+.hero img {
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+    background-color: var(--accent2-color);
+}
+
+p img {
+    float: right;
+}
