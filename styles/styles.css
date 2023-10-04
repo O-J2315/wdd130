@@ -58,11 +58,11 @@ aside img {
 aside h2 {
     position: absolute;
     align-self: center;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 12%;
     font-size: 45px;
     -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: aliceblue;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 footer {
@@ -85,10 +85,9 @@ header, .grid, footer {
     padding: 10px;
 }
 
-.grid {
+div.grid {
     display: grid;
     align-items: center;
-
 }
 
 main {
