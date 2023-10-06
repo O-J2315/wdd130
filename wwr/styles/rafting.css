@@ -65,6 +65,7 @@ a:hover {
 
 .hero div {
     display: flex;
+    flex-flow: column;
     position: relative;
     align-items: center;
     justify-content:space-evenly;
@@ -115,7 +116,6 @@ header {
 }
 
 header img {
-    float: center;
     width: 6rem;
     margin-left: 3rem;
 }
