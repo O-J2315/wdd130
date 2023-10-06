@@ -177,13 +177,17 @@ section img {
     margin: 10px;
     display: flex;
     flex-flow: column;
-    border: solid #363636 3.5px;
+    border: solid #363636 2px;
+    height: 60%;
+    width: auto;
 }
 
 figcaption {
     background-color: #363636;
     opacity: 50%;
     color: mintcream;
+    height: 100%;
+    text-align: center;
 }
 
 
