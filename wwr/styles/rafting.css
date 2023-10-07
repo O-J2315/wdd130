@@ -32,6 +32,10 @@ p {
     color: black;
 }
 
+img {
+    border-radius: 6%;
+}
+
 header {
     display: grid;
     grid-template-columns: 2fr 2fr ;
@@ -63,12 +67,12 @@ a:hover {
 
 .hero h1 {
     position: absolute;
-    top: 3em; right: .5em;
+    top: 3em; right: .9em;
     align-self: center;
     opacity: 90%;
     color: aliceblue;
     padding: 3%;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .hero div {
@@ -85,6 +89,7 @@ a:hover {
     height: auto;
     align-self: center;
     justify-self: center;
+    border-radius: 0;
 } 
 
 .hero article {
@@ -93,6 +98,8 @@ a:hover {
     background-color: var(--nav-hover-background-color);
     opacity: 90%;
     margin-left: 10px; margin-right: 20px;
+    padding: 0;
+    margin-bottom: 0;
     
 }
 .hero p {
@@ -101,6 +108,7 @@ a:hover {
 }
 
 .hero article img {
+    display: block;
     float: right;
     height: 8rem;
     width: auto;
@@ -119,6 +127,7 @@ nav {
 header img {
     width: 6rem;
     margin-left: 3rem;
+    border-radius: 10%;
 }
 
 section {
@@ -178,17 +187,19 @@ section img {
     display: flex;
     flex-flow: column;
     border: solid #363636 1px;
-    height: 65%;
+    height: 85%;
     width: auto;
+    border-radius: 6%;
 }
 
 figcaption {
     background-color: azure;
     /* opacity: 70%; */
     color:#000000;
-    height: 50%;
+    height: 100%;
     text-align: center;
     padding: 2%;
+    border-radius: 6%;
 }
 
 footer {
@@ -196,6 +207,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     gap: 0;
+    
 }
 
 footer p{
