@@ -116,8 +116,6 @@ nav {
     text-align: left;
 }
 
-
-
 header img {
     width: 6rem;
     margin-left: 3rem;
@@ -143,7 +141,6 @@ section img {
     width: 100%;
     height: auto;
 }
-
 
 .history {
     display: grid;
@@ -193,8 +190,6 @@ figcaption {
     text-align: center;
     padding: 2%;
 }
-
-
 
 footer {
     display: grid;
