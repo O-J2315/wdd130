@@ -10,7 +10,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 1.3em;
     color: rgb(68, 47, 47);
-    background: rgba(217, 217, 217, 0.066);
+    background: rgba(217, 217, 217, 0.521);
 }
 
 header {
@@ -30,9 +30,9 @@ form {
     margin: 0  auto;
     margin-bottom: 4rem;
     padding: 1rem;
-    border: 2px solid rgba(3, 3, 3, 0.1);
+    border: 2px solid rgba(3, 3, 3, 0.171);
     border-radius: .5rem;
-    background-color:color-mix(in srgb, rgba(255, 0, 0, 0.468) 20%, rgb(128, 92, 0) 10%);
+    background-color:rgba(255, 0, 0, 0.153);
     display: grid;
 }
 
