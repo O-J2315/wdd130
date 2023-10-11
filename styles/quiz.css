@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,500&family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+    color: rgb(68, 47, 47);
+    background: rgba(217, 217, 217, 0.066);
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+}
+
+form {
+    width: 29em;
+    margin: 0  auto;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    border: 2px solid rgba(3, 3, 3, 0.1);
+    border-radius: .5rem;
+    background-color:color-mix(in srgb, rgba(255, 0, 0, 0.468) 20%, rgb(128, 92, 0) 10%);
+    display: grid;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 1rem;
+}
+
+textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    
+}
+textarea:hover {
+    background-color: rgba(183, 255, 198, 0.475);
+}
+
+input[type="text"]:hover {
+    background-color: rgba(183, 255, 198, 0.475);
+}
+
+button{
+    width: 80%;
+    height: 3rem;
+    border-radius: 10rem;
+    justify-self: center;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: rgba(32, 117, 209, 0.784);
+    color: aliceblue;
+    
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    margin: 1rem;
+    /* border: 1px solid #000; */
+}
+
+
+.imgg {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .1rem;
+}
+
+
+.imgg label {
+    grid-row: 1;
+    grid-column: 1/4;
+    
+}
+
+.imgg img {
+    align-self: center;
+    justify-self: center;
+    margin: .5rem;
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+.imgg input[type="number"] {
+    grid-row: 3;
+    grid-column: 1/4;
+}
+
+select{
+    height: 3rem;
+    font-size: 1em;
+    margin-top: 1rem;
+}
+
+select:hover{
+    background-color: rgba(183, 255, 198, 0.475);
+}
+
+input[type="text"] {
+    padding: 1em;
+    margin-top: 1rem;
+}
+
+input[type="number"] {
+    padding: 1em;
+}
+
+input[type="number"]:hover {
+    background-color: rgba(183, 255, 198, 0.475);
+}

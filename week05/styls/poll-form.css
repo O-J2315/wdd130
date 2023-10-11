@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+label img{
+    max-width: fit-content;
+}
+
+
 body {
     font-family: 'Playfair Display', serif;
     font-size: large;
@@ -75,7 +80,7 @@ input[type="text"]:hover {
 }
 
 input[type="checkbox"]:hover {
-    height: 120%;
+    transform: scale(1.5)
 }
 
 button{
@@ -98,12 +103,14 @@ footer{
     color: rgb(18, 17, 17);
     border-top: 1px solid #ccc;
     padding-top: 1rem;
+    
 
 }
 
 .form-item {
     display: grid;
     align-items: center;
+    /* border: 1px solid #000; */
 }
 
 .column1 {
@@ -118,3 +125,9 @@ footer{
 select{
     height: 2rem;
 }
+
+
+input[type="text"] {
+    padding: 200em;
+}
+    
