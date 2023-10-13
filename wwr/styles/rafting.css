@@ -226,14 +226,15 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     gap: 0;
-    color: #ffffff;
+    color: #000000;
     font-size: larger;
     
 }
 
 footer p{
     grid-column: 1/3;
-    color: #ffffff;
+    color: #000000;
+    font-size: large;
 }
 
 .sociallinks nav {
