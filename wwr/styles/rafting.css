@@ -70,9 +70,9 @@ header a:not(visited){
 }
 
 a:hover {
-    font-size: 19px;
     color: var(--nav-link-color);
-    text-decoration: underline;
+    border-bottom: solid red;
+    background-color: #00000016;
 }
 
 .hero h1 {
