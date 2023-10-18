@@ -550,3 +550,37 @@ iframe {
     border-top-right-radius: 2rem;
     border: none;
 }
+
+
+.banner {
+    border-top: 0;
+    padding-top: 0;
+    background-image: url(/wwr/images/tripsbanner.jpg);
+    height: 10rem;
+}
+
+
+
+.banner h1{
+    font-size: 2.8rem;
+    text-align: center;
+    position: relative;
+    top: 1em;
+}
+
+.offers {
+    padding: 1rem;
+    margin: 1rem;
+
+}
+.offers h2{
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.offers_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
