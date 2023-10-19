@@ -709,3 +709,44 @@ td{
     position: relative;
     text-align: justify;
 }
+
+
+.floating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    text-decoration: none;
+    align-items: center;
+    padding: 0;
+}
+
+.floating:hover {
+    border: none;
+    background-color: transparent;
+}
+
+.floating img{
+    display: block;
+    left: 0;
+    border: none;
+    width: 50%;
+}
+
+.floating:hover a{
+    border: none;
+    background-color: transparent;
+
+}
+
+.floating p{
+    flex-grow: 2;
+    padding: 0;
+    color: black;
+    width: 100%;
+}
+.floating:hover p {
+    transition: 2s ease;
+    color: red;
+    font-size: large;
+}
