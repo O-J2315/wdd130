@@ -164,6 +164,9 @@ section img {
 .history img {
     align-self: center;
     justify-self: center;
+    max-width: 25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .adventure figure {
