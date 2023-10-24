@@ -44,12 +44,11 @@ header a:not(visited){
 
 .hero h1 {
     position: absolute;
-    top: 3.5em;
-    align-self: center;
-    justify-self: center;
+    top: 1.8em;
+    left: 15%;
     color: var(--secondary-color);
     padding: 3%;
-    font-size: 2.6em;
+    font-size: 4em;
 }
 
 .hero div {
@@ -63,7 +62,7 @@ header a:not(visited){
 
 .hero img {
     display:block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     align-self: center;
     justify-self: center;
@@ -72,9 +71,10 @@ header a:not(visited){
 
 .hero article {
     position: absolute;
+    display: flex;
     top: 15rem;
     background-color: var(--secondary-color);
-    opacity: 98%;
+    opacity: 90%;
     margin-left: 2.5rem; margin-right: 2.5rem;
     margin-bottom: 0;
     width: 82%;
@@ -85,14 +85,13 @@ header a:not(visited){
 .hero p {
     color: rgb(0, 0, 0);
     text-align:justify;
-    font-size: large;
+    font-size: 1.5rem;
 }
 
 .hero article img {
     display: block;
     float: right;
-    height: 7.5rem;
-    width: auto;
+    max-width: 30%;
     margin: 1rem;
     align-self: center;
     justify-self: center;
@@ -136,24 +135,26 @@ section img {
 
 .history {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 4fr;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(255, 255, 255);
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr;
+    background-color: var(--secondary-color);
     border: solid 1px black;
+    width: 90%;
 }
 
 .history h2 {
-    grid-column: 1/4;
     grid-row: 1;
-    align-self: center;
+    font-size: 2.5rem;
+}
+
+.ahistoryrow{
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
     justify-self: center;
-    font-size: 2em;
-    margin-top: 2em;
-    padding-top: 0;
-    margin-bottom: -1em;
-    border-bottom: 0;
+    align-self: center;
+    padding: 1rem;
 }
 
 .history p {
@@ -167,20 +168,23 @@ section img {
 
 .adventure figure {
     font-size: large;
-    margin: 10px;
+    margin: .1rem;
     display: flex;
     flex-flow: column;
     border: solid #000000 2px;
     height: 80%;
-    width: auto;
+    max-width: 70%;
     border-radius: 6%;
+    margin-bottom: 1rem;
+    margin: 1.5rem;
+    justify-items: center;
 }
 
 figcaption {
     color:#000000;
     height: 40%;
     text-align: center;
-    padding: .7rem;
+    padding: .2rem;
     
 }
 
